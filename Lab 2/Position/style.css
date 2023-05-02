@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 10px;
+}
+
+.blocks-wrapper {
+    border: 2px solid red;
+    /* height: 2000px; */
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: orange
+}
+
+.static-block {
+    background-color: red;
+    position: static;
+    /* left: 100px; */
+    /* right: 100px; */
+    /* top: 100px; */
+    /* bottom: 100px; */
+}
+
+.relative-block {
+    background-color: blue;
+    position: relative;
+    /* left: 100px;  */
+    /* right: 100px; */
+    /* top: 100px; */
+    /* bottom: 100px; */
+}
+
+.absolute-block {
+    background-color: green;
+    position: absolute;
+    /* left: 100px; */
+    right: 100px;
+    top: 100px;
+    /* bottom: 0; */
+}
+
+.fixed-block {
+    background-color: pink;
+    position: fixed;
+    left: 0;
+    /* right: 0; */
+    top: 0;
+    /* bottom: 0; */
+    /* margin: 0; */
+}
+
+.sticky-block {
+    background-color: lightslategray;
+    position: sticky;
+    /* left: 0; */
+    /* right: 0; */
+    top: 100px;
+    /* bottom: 0; */
+    /* margin: 0; */
+}
