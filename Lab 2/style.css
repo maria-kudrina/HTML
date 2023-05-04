@@ -1,0 +1,119 @@
+body.bg_aqua {
+    background-color: aqua;
+
+}
+
+.fon2{
+    background-image: url("./img/fon_besshovniy_cian4.jpg");
+    background-size: 100%;
+}
+
+.bg_pink{
+    background-color: pink;
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    color: #9d0c79e8;
+    text-align: center;
+    background-color: pink;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    border-color: black;
+    /* border-left: 2px solid black; */
+    margin: 20px;
+    padding: 10px;
+
+}
+
+p{
+    font-size: 20px;
+    /* background-image: url("./img/fon_besshovniy_cian5.jpg"); */
+    /* background-color: aqua; */
+    background: rgba(255, 255, 255, 0.6); /* Полупрозрачный фон */
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+ul{
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    list-style-position: inside;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+ol{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.test{
+    width: 100%;
+    text-align:  center;
+    }
+
+.center_ol{
+    display: inline-block
+    }
+
+li{
+    text-align: left;
+    }
+
+
+.content{
+    display: flex;
+    margin: 20px;
+
+}    
+
+.content-left{
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 128, 255, 0.6); 
+    border-radius: 5%;
+}
+
+.content-right{
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 128, 0.6); 
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    padding: 30px;
+    /* display: flex;
+    align-items: center; */
+
+
+}
