@@ -54,7 +54,6 @@ p{
     text-align: center;
     margin: 10px;
     padding: 10px;
-
 }
 
 ul{
@@ -65,7 +64,6 @@ ul{
     text-align: center;
     margin: 10px;
     padding: 10px;
-
 }
 
 ol{
@@ -93,7 +91,6 @@ li{
 .content{
     display: flex;
     margin: 20px;
-
 }    
 
 .content-left{
@@ -112,11 +109,10 @@ li{
     border-radius: 5%;
     display: flex;
     align-items: center;
-
 }
 
 img{
-    padding: 30px;
+    /* padding: 30px; */
     /* display: flex;
     align-items: center; */
 }
@@ -124,23 +120,25 @@ img{
 .img_gorizont{
     width: 200px;
     height: 200px;
-    display: block;
+    /* display: block; */
     /* margin: 0 auto; */
-    margin: 10px auto 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 10px auto 10px; */
 }
 
 .header{
     margin: 0px;
     position: fixed;
+    top: 0;
     width: 100%;
     height: 50px;
     background-color: darkcyan;
     padding: 0px 0px 0px 0px;
     display: flex;
     justify-content: right;
-   
-
-
 }
 
 .btn_header{
@@ -172,6 +170,7 @@ img{
 .container{
     border: 1px solid white;
     display: flex;
+    flex-direction: column;
     margin: 30px;
 }
 .container-2{
@@ -182,13 +181,41 @@ img{
     align-items: center;
 }
 
+.container-3{
+    background-color: rgb(52, 246, 101);
+    border: 2px dashed black;
+    /* height: 500px; */
+    margin: 30px;
+    display: flex;
+    /* элементы выстраиваются в строку */
+    flex-direction: row; 
+    /* элементы перемещаются на другую строку, если не уместились, размер не изменяют */
+    flex-wrap: wrap;
+    /* между блоками одинаковые зазоры по всей ширине */
+    justify-content: space-between;
+}
+.container-4{
+    background-color: white;
+    border: 4px dotted black;
+    height: 600px;
+    margin: 30px;
+    display: flex;
+    /* элементы выстраиваются в столбец */
+    flex-direction: column; 
+    position: relative;
+    
+}
+
 .block{
  width: 200px;
  height: 200px;
  background-color: blue;
- /* margin-left: auto;
- margin-right: auto; */
- margin: 0 auto;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ /* margin: 10px auto 10px; */
+ /* margin: 0 auto; */
 }
 
 .block-2{
@@ -198,6 +225,49 @@ img{
  margin: 0 auto;
 }
 
+.block-3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(81, 58, 122);
+    margin: 10px;
+   }
+   
+.block-4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(234, 8, 144);
+    margin: 10px;
+}
+
+.position-1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.position-2{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.position-3{
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
 .content_pos{
     padding-top: 70px;
+}
+
+.fixed_cat{
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* justify-content: right; */
 }
